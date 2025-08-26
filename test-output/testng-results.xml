@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-26T21:55:01 IST" name="Default suite" finished-at="2025-08-26T21:55:06 IST" duration-ms="5267">
+    <groups>
+    </groups>
+    <test started-at="2025-08-26T21:55:01 IST" name="Default test" finished-at="2025-08-26T21:55:06 IST" duration-ms="5267">
+      <class name="demo1.DemoTest">
+        <test-method signature="fun1()[pri:1, instance:demo1.DemoTest@a3d8174]" started-at="2025-08-26T21:55:01 IST" name="fun1" finished-at="2025-08-26T21:55:06 IST" duration-ms="4738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun1 -->
+        <test-method signature="fin2()[pri:2, instance:demo1.DemoTest@a3d8174]" started-at="2025-08-26T21:55:06 IST" name="fin2" finished-at="2025-08-26T21:55:06 IST" depends-on-methods="demo1.DemoTest.fun1" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo1.DemoTest@a3d8174]" started-at="2025-08-26T21:55:06 IST" name="tearDown" finished-at="2025-08-26T21:55:06 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo1.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
