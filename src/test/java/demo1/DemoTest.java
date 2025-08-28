@@ -17,8 +17,8 @@ public class DemoTest
 	@Test(priority=1)
 	public void fun1() 
 	{
-		WebDriverManager.chromedriver().browserVersion("139").setup();
-		driver=new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
 
 		driver.get("https://www.google.com");
 	}
