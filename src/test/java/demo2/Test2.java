@@ -14,8 +14,10 @@ public class Test2
 	public void fun() 
 	{
 		//	  WebDriverManager.chromedriver().setup();
-
-		System.setProperty("webdriver.chrome.driver","../GitHubPushCode/configureDriver/chromedriver.exe");
+		String driverPath = System.getProperty("user.dir") + "/configureDriver/chromedriver.exe";
+		System.out.println(driverPath);
+		
+		System.setProperty("webdriver.chrome.driver",driverPath);
 		driver=new ChromeDriver();
 
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
