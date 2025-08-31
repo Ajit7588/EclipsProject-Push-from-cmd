@@ -5,7 +5,10 @@
 		<classes>
 			<class name="demo1.Test2" />
 			<class name="demo1.DemoTest" />
+			<class name="rest_api.ApiRequestBodyCreate" />
 			<class name="demo2.Test2" />
+			<class name="api_requestBodyPreparation.ArrayRequestBodyCreate" />
 		</classes>
-	</test> <!-- Test -->
+	</test> <!--
+	Test -->
 </suite> 
