@@ -1,5 +1,7 @@
 api_requestBodyPreparation\UserAndInnerBody.class
 rest_api\Request1User.class
+apiRequestLearning\FinalRequestBody.class
+apiRequestLearning\WrapperClassOfAddress.class
 rest_api\Request3UserArray.class
 rest_api\UserWrapperClass.class
 demo1\Test2.class
@@ -10,6 +12,10 @@ api_requestBodyPreparation\UsersWrapper.class
 rest_api\UserArray.class
 rest_api\InnerUser.class
 demo1\DemoTest.class
+apiRequestLearning\InnerBody.class
 api_requestBodyPreparation\InnerClass.class
 rest_api\ApiRequestBodyCreate.class
+apiRequestLearning\InnerAddressClass.class
+apiRequestLearning\FinalRequestPrep.class
+apiRequestLearning\ProfileWrapper.class
 api_requestBodyPreparation\ArrayRequestBodyCreate.class

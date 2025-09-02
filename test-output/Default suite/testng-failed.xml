@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo2.Test2">
+      <class name="apiRequestLearning.FinalRequestPrep">
         <methods>
-          <include name="tearDown"/>
-          <include name="fun"/>
+          <include name="test8"/>
         </methods>
-      </class> <!-- demo2.Test2 -->
+      </class> <!-- apiRequestLearning.FinalRequestPrep -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
