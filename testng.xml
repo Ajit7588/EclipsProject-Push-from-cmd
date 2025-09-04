@@ -4,7 +4,7 @@
 	<test thread-count="5" name="Test" preserve-order="true">
 		<groups>
 			<run>
-				<include name="sanity"></include>
+			<!-- 	<include name=""></include>        -->
 			</run>
 		</groups>
 		<classes>

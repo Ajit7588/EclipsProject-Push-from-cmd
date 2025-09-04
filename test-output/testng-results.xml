@@ -1,35 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-04T23:06:03 IST" name="Suite" finished-at="2025-09-04T23:06:04 IST" duration-ms="453">
+  <suite started-at="2025-09-04T23:15:56 IST" name="Suite" finished-at="2025-09-04T23:16:10 IST" duration-ms="13601">
     <groups>
+      <group name="regression">
+        <method signature="GroupingTest.test2()[pri:2, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test2" class="apiRequestLearning.GroupingTest"/>
+        <method signature="GroupingTest.test4()[pri:4, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test4" class="apiRequestLearning.GroupingTest"/>
+        <method signature="GroupingTest.test6()[pri:6, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test6" class="apiRequestLearning.GroupingTest"/>
+        <method signature="GroupingTest.test8()[pri:8, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test8" class="apiRequestLearning.GroupingTest"/>
+        <method signature="GroupingTest.test9()[pri:9, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test9" class="apiRequestLearning.GroupingTest"/>
+      </group> <!-- regression -->
       <group name="sanity">
-        <method signature="GroupingTest.test1()[pri:1, instance:apiRequestLearning.GroupingTest@31ea9581]" name="test1" class="apiRequestLearning.GroupingTest"/>
-        <method signature="GroupingTest.test3()[pri:3, instance:apiRequestLearning.GroupingTest@31ea9581]" name="test3" class="apiRequestLearning.GroupingTest"/>
-        <method signature="GroupingTest.test5()[pri:5, instance:apiRequestLearning.GroupingTest@31ea9581]" name="test5" class="apiRequestLearning.GroupingTest"/>
-        <method signature="GroupingTest.test7()[pri:7, instance:apiRequestLearning.GroupingTest@31ea9581]" name="test7" class="apiRequestLearning.GroupingTest"/>
+        <method signature="GroupingTest.test1()[pri:1, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test1" class="apiRequestLearning.GroupingTest"/>
+        <method signature="GroupingTest.test3()[pri:3, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test3" class="apiRequestLearning.GroupingTest"/>
+        <method signature="GroupingTest.test5()[pri:5, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test5" class="apiRequestLearning.GroupingTest"/>
+        <method signature="GroupingTest.test7()[pri:7, instance:apiRequestLearning.GroupingTest@6d60fe40]" name="test7" class="apiRequestLearning.GroupingTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-09-04T23:06:03 IST" name="Test" finished-at="2025-09-04T23:06:04 IST" duration-ms="453">
+    <test started-at="2025-09-04T23:15:56 IST" name="Test" finished-at="2025-09-04T23:16:10 IST" duration-ms="13601">
       <class name="apiRequestLearning.GroupingTest">
-        <test-method signature="test1()[pri:1, instance:apiRequestLearning.GroupingTest@31ea9581]" started-at="2025-09-04T23:06:03 IST" name="test1" finished-at="2025-09-04T23:06:04 IST" duration-ms="311" status="PASS">
+        <test-method signature="test1()[pri:1, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test1" finished-at="2025-09-04T23:16:10 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test3()[pri:3, instance:apiRequestLearning.GroupingTest@31ea9581]" started-at="2025-09-04T23:06:04 IST" name="test3" finished-at="2025-09-04T23:06:04 IST" duration-ms="14" status="PASS">
+        <test-method signature="test2()[pri:2, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test2" finished-at="2025-09-04T23:16:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:3, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test3" finished-at="2025-09-04T23:16:10 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method signature="test5()[pri:5, instance:apiRequestLearning.GroupingTest@31ea9581]" started-at="2025-09-04T23:06:04 IST" name="test5" finished-at="2025-09-04T23:06:04 IST" duration-ms="14" status="PASS">
+        <test-method signature="test4()[pri:4, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test4" finished-at="2025-09-04T23:16:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:5, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test5" finished-at="2025-09-04T23:16:10 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5 -->
-        <test-method signature="test7()[pri:7, instance:apiRequestLearning.GroupingTest@31ea9581]" started-at="2025-09-04T23:06:04 IST" name="test7" finished-at="2025-09-04T23:06:04 IST" duration-ms="10" status="PASS">
+        <test-method signature="test6()[pri:6, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test6" finished-at="2025-09-04T23:16:10 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:7, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test7" finished-at="2025-09-04T23:16:10 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test7 -->
+        <test-method signature="test8()[pri:8, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test8" finished-at="2025-09-04T23:16:10 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method signature="test9()[pri:9, instance:apiRequestLearning.GroupingTest@6d60fe40]" started-at="2025-09-04T23:16:10 IST" name="test9" finished-at="2025-09-04T23:16:10 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
       </class> <!-- apiRequestLearning.GroupingTest -->
+      <class name="demo1.DemoTest">
+        <test-method signature="fun1()[pri:1, instance:demo1.DemoTest@273444fe]" started-at="2025-09-04T23:15:57 IST" name="fun1" finished-at="2025-09-04T23:16:02 IST" duration-ms="5796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun1 -->
+        <test-method signature="fun2()[pri:2, instance:demo1.DemoTest@273444fe]" started-at="2025-09-04T23:16:02 IST" name="fun2" finished-at="2025-09-04T23:16:02 IST" depends-on-methods="demo1.DemoTest.fun1" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun2 -->
+        <test-method signature="fun3()[pri:3, instance:demo1.DemoTest@273444fe]" started-at="2025-09-04T23:16:02 IST" name="fun3" finished-at="2025-09-04T23:16:03 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo1.DemoTest@273444fe]" started-at="2025-09-04T23:16:03 IST" name="tearDown" finished-at="2025-09-04T23:16:03 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo1.DemoTest -->
+      <class name="api_requestBodyPreparation.ArrayRequestBodyCreate">
+        <test-method signature="f()[pri:0, instance:api_requestBodyPreparation.ArrayRequestBodyCreate@43df23d3]" started-at="2025-09-04T23:16:10 IST" name="f" finished-at="2025-09-04T23:16:10 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- api_requestBodyPreparation.ArrayRequestBodyCreate -->
+      <class name="demo1.Test2">
+        <test-method signature="f()[pri:0, instance:demo1.Test2@1349883]" started-at="2025-09-04T23:15:57 IST" name="f" finished-at="2025-09-04T23:15:57 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="g()[pri:0, instance:demo1.Test2@1349883]" started-at="2025-09-04T23:15:57 IST" name="g" finished-at="2025-09-04T23:15:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+      </class> <!-- demo1.Test2 -->
+      <class name="demo2.Test2">
+        <test-method signature="fun()[pri:1, instance:demo2.Test2@359df09a]" started-at="2025-09-04T23:16:03 IST" name="fun" finished-at="2025-09-04T23:16:10 IST" duration-ms="6243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo2.Test2@359df09a]" started-at="2025-09-04T23:16:10 IST" name="tearDown" finished-at="2025-09-04T23:16:10 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo2.Test2 -->
+      <class name="rest_api.ApiRequestBodyCreate">
+        <test-method signature="f()[pri:0, instance:rest_api.ApiRequestBodyCreate@609e8838]" started-at="2025-09-04T23:16:03 IST" name="f" finished-at="2025-09-04T23:16:03 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- rest_api.ApiRequestBodyCreate -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
